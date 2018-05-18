@@ -1,3 +1,29 @@
 {
-	
+	"providers":{
+		"fmovies":{
+			"name":"fmovies",
+			"domain":"fmovies.io",
+			"version":"0.0.1",
+			"author":"meego",
+			"url":"https://raw.githubusercontent.com/tmdbapp/tmdb/master/providers/fmovies.js",
+			"type": ["tv", "movie"]
+		}
+	},
+	"hosts":{
+		"openload": {
+            "name": "openload",
+            "domain": ["openload.com", "openload.co", "oload.tv", "oload.stream", "oload.info", "oload.site"],
+            "version": "0.0.1",
+            "author": "meego",
+            "url": "https://raw.githubusercontent.com/tmdbapp/tmdb/master/hosts/openload.js"
+        }
+	},
+	"subs":{
+		"subscene":{
+			"name":"subscene",
+			"domain":"subscene.com",
+			"version":"0.0.1",
+			"author":"meego",
+			"url":"https://raw.githubusercontent.com/tmdbapp/tmdb/master/subs/subscene.js"
+	}
 }
